@@ -1,7 +1,7 @@
 package com.you.vueblog.mapper;
 
-import com.you.vueblog.entity.User;
 import com.baomidou.mybatisplus.core.mapper.BaseMapper;
+import com.you.vueblog.entity.User;
 
 
 public interface UserMapper extends BaseMapper<User> {

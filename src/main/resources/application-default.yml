@@ -1,0 +1,12 @@
+
+#\u914D\u7F6E\u6570\u636E\u5E93\u4FE1\u606F
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://192.168.211.132:3306/vueblog?useUnicode=true&useSSL=false&characterEncoding=utf8&serverTimezone=Asia/Shanghai&allowPublicKeyRetrieval=true
+    username: root
+    password: 123456
+shiro-redis:
+  enabled: true
+  redis-manager:
+    host: 192.168.211.132:6379

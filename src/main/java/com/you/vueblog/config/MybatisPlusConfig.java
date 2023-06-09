@@ -13,7 +13,7 @@ import org.springframework.transaction.annotation.EnableTransactionManagement;
  */
 @Configuration
 @EnableTransactionManagement
-@MapperScan("com.gyg.mapper")
+@MapperScan("com.you.vueblog.mapper")
 public class MybatisPlusConfig {
 
     /**

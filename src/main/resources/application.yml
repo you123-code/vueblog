@@ -1,11 +1,12 @@
-#\u914D\u7F6E\u6570\u636E\u5E93\u4FE1\u606F
-spring:
-  datasource:
-    driver-class-name: com.mysql.cj.jdbc.Driver
-    url: jdbc:mysql://192.168.211.132:3306/vueblog?useUnicode=true&useSSL=false&characterEncoding=utf8&serverTimezone=Asia/Shanghai
-    username: root
-    password: 123456
-
 #\u6307\u5B9AmybatisPlus\u626B\u63CF\u7684xml\u6587\u4EF6
 mybatis-plus:
   mapper-locations: classpath*:/mapper/**Mapper.xml
+vueblog:
+  jwt:
+    # 加密秘钥
+    secret: f4e2e52034348f86b67cde581c0f9eb5
+    # token有效时长，7天，单位秒
+    expire: 604800
+    header: authorization
+server:
+  port: 8081
